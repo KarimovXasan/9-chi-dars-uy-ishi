@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #3C3C3C;
+}
+
+[centerEl]{
+    margin-top: 20px;
+}
+
+.card-container{
+    width: 400px;
+    scale: 0.3;
+    opacity: 0.3;
+}
+
+.card-container:hover{
+    opacity: 1;
+    box-shadow: 10px 10px 5px white;
+    cursor: pointer;
+    scale: 1;
+    transition: ease-in-out;
+    transition-duration: 5s;
+}
